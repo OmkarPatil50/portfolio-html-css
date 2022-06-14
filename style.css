@@ -76,7 +76,8 @@ body {
 .navigation .nav-brand {
     font-weight: bold;
     font-size: 1.2rem;
-    font-size: large;
+    font-size: xx-large;
+    margin-top: 1rem;
 }
 
 .navigation .link-active {
@@ -100,11 +101,20 @@ body {
     text-align: center;
 }
 
+.about-img{
+    align-items: center;
+    max-width: 400px;
+    max-height: 400px;
+    margin-top: 2rem;
+    margin-left: 5.5rem;
+}
+
 .hero-img {
     max-width: 600px;
     max-height: 400px;
     margin: auto;
     padding: 1rem 0rem 0rem 0rem;
+    align-items: center;
 }
 
 .section{
