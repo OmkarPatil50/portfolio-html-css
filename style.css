@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Zilla+Slab&display=swap');
 
 :root {
-    --primary-color: #38bdf8;
+    --primary-color: #a855f7;
     --secondary-color: #a1a1aa;
-    --off-white-color: #e5e7eb;
+    --off-white-color: #f3f4f6;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+ 
 }
 
 .container-fluid {
@@ -49,7 +50,7 @@ body {
 }
 
 .navigation {
-    background-color: #38bdf8;
+    background-color: var(--primary-color);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1.5rem;
@@ -93,12 +94,23 @@ body {
     max-width: 600px;
     max-height: 400px;
     margin: auto;
+    padding: 1rem 0rem 0rem 0rem;
 }
 
-.section h1, p
+.section{
+     padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    text-align: center;
+}
+
+.section p
  {
     text-align: center;
-    padding: 2rem;
+    padding: 0rem 0.5rem 0.5rem 0.5rem;
+}
+
+.section h1{
+    padding: 0.5rem;
 }
 
 .ow{
