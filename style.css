@@ -9,6 +9,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    
      
 }
 
@@ -22,6 +23,26 @@ body {
     margin: auto;
 }
 
+.container-blog-para{
+    max-width: 800px;
+    margin: auto;
+   margin-top: 4rem;
+   
+}
+
+.container-blog-para, h2{
+    margin: auto;
+    max-width: 800px;
+}
+
+.container-blog {
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 7rem;
+    padding-top: 3rem;
+ text-align: center;
+
+}
 
 .link {
     padding: 0.5rem 1rem;
@@ -127,9 +148,10 @@ body {
 
 .section p
  {
-        padding: 0rem 0.5rem 0.5rem 0.5rem;
-        margin-top: 0 rem;
-        margin-bottom: 1rem;
+        padding: 1rem 0.5rem 2rem 0.5rem;
+    margin: auto;
+        max-width: 600px;
+        text-align: center;
    
 }
 
@@ -158,4 +180,10 @@ body {
 .footer .non-bullet{
     padding: 1rem ;
 }
+.space{
+    padding-bottom: 4.5rem;
+}
 
+.size-large{
+    font-size: large;
+}
