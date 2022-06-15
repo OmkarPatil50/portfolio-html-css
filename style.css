@@ -9,9 +9,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-    
-     
+   
 }
+
+
 
 .container-fluid {
     padding: 0rem 1rem;
@@ -75,6 +76,7 @@ body {
     list-style: none;
 }
 
+
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
@@ -128,8 +130,9 @@ body {
     align-items: center;
     max-width: 400px;
     max-height: 400px;
-    margin-top: 2rem;
+    margin-top: 10rem;
     margin-left: 5.5rem;
+
 }
 
 .hero-img {
@@ -138,8 +141,8 @@ body {
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%
-    padding: 1rem 0rem 2rem 0rem;
+  
+    padding:1rem 0rem 2rem 0rem;
     
 }
 
@@ -185,7 +188,7 @@ body {
     font-size: large;
 }
 .footer .non-bullet{
-    padding: 1rem ;
+    padding: 1rem 0rem 2rem ;
 }
 .space{
     padding-bottom: 4.5rem;
@@ -197,4 +200,14 @@ body {
 
 .section, section{
     padding: 4rem 0rem;
+}
+
+.about-name{
+    margin: auto;
+    padding-top: 5rem;
+    text-align:center;
+}
+
+.center{
+    text-align: center;
 }
