@@ -127,12 +127,12 @@ body {
 }
 
 .about-img{
-    align-items: center;
-    max-width: 400px;
+    max-width: 600px;
     max-height: 400px;
-    margin-top: 10rem;
-    margin-left: 5.5rem;
 
+ margin: auto;
+  padding:10rem 0rem 2rem 0rem;
+   
 }
 
 .hero-img {
