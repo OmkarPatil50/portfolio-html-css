@@ -9,7 +9,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-    width: 100%;
+    width: auto;
+    block-size: fit-content;
 }
 
 
@@ -25,7 +26,7 @@ body {
 }
 
 .container-blog-para{
-    max-width: 800px;
+  
     margin: auto;
    margin-top: 4rem;
    
@@ -33,12 +34,12 @@ body {
 
 .container-blog-para, h2{
     margin: auto;
-    max-width: 800px;
+  
 }
 
 
 .container-blog {
-    max-width: 800px;
+  
     margin: auto;
     padding-bottom: 7rem;
     padding-top: 3rem;
